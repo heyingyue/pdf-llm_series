@@ -18,7 +18,8 @@ class MultiModal(BaseModel):
     image_base64: str = ""
     text: str = ""
 
-model = Visualized_BGE(model_name_bge = "BAAI/bge-m3", model_weight="/data-ai/usr/lmj/models/bge-visualized/Visualized_m3.pth")
+
+model = Visualized_BGE(model_name_bge="BAAI/bge-m3", model_weight="./models/bge-visualized/Visualized_m3.pth")
 model.eval()
 print("model loaded!")
 

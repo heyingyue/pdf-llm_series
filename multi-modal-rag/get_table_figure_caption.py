@@ -105,6 +105,6 @@ class TableFigureMatch(object):
 
 
 if __name__ == '__main__':
-    pdf_path = '../data/Attention.pdf'
+    pdf_path = '../data/LLaMA.pdf'
     table_figure_matcher = TableFigureMatch(pdf_file_path=pdf_path)
     table_figure_matcher.run()

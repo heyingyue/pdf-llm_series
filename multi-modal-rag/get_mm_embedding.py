@@ -135,7 +135,7 @@ class TextEmbedding(object):
 
 
 if __name__ == '__main__':
-    pdf_path = '../data/Attention.pdf'
+    pdf_path = '../data/LLaMA.pdf'
     client = MilvusClient(uri="http://localhost:19530", db_name="default")
     my_image_embedding = ImageEmbedding(
         pdf_file_path=pdf_path, milvus_client=client)
