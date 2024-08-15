@@ -71,8 +71,8 @@ def get_file_content(file_path: str):
 
 
 class CommonOcr(object):
-    _app_id = '0591274538f652b47dca360c44a3cca4'
-    _secret_code = 'a46398f18233f2fec5c7902b0aedb681'
+    _app_id = 'xxx'
+    _secret_code = 'xxx'
 
     @classmethod
     def recognize(cls, img_path: str):
