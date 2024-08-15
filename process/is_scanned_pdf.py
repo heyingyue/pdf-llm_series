@@ -7,7 +7,7 @@ import time
 import fitz
 
 s_time = time.time()
-doc = fitz.open('../data/book_split.pdf')
+doc = fitz.open('../data/外国电影史.pdf')
 
 total_area = 0
 text_area = 0
